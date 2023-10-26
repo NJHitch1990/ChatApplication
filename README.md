@@ -14,9 +14,9 @@ to do that.
 
 When pushing this to a remote repo, I had trouble as the Chat Client had been initialised with its own .git file, which
 meant I couldn't access the files in GitHub.<br>
-That (hidden) file will need to be deleted.
+Deleted that (hidden) file before pushing the project into the Github repo.
 
-Once deleted, it's not straight forward to commit.<br>
+If you had to deleted after pushing the project in, and need to deleted and commit that deletion, it's not straight forward to commit.<br>
 Try a simple git add and commit; if git says there aren't any changes (which is most likely), then the cached command
 will need to be used: *git rm --cached {folder}* (The recursive *-r* command may need to be used as).<br>
 Then try add, commit and push.
